@@ -1,0 +1,13 @@
+{% extends 'giveaway/base.html' %}
+
+{% block content %}
+<form action="{% url 'giveaway:register' session_key.key %}" method="post">
+    {% csrf_token %}
+    <input type="email" name="email" id="email">
+    <input type="submit" value="Register">
+</form>
+{% endblock %}
+
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+

@@ -1,0 +1,130 @@
+[{
+  "model": "giveaway.Criteria",
+  "pk":"from_is_giveaway",
+  "fields": {
+    "type": "from_is",
+    "values": ["Smart From-Number", "SmartFrom-Number", "ADAPTIVENUMBER"]
+  }
+},
+  {
+    "model": "giveaway.Criteria",
+    "pk":"from_is_invalid",
+    "fields": {
+      "type": "from_is_invalid",
+      "values": []
+    }
+  },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_type_is_internal",
+      "fields": {
+        "type": "to_type_is",
+        "values": ["internal"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_8445",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["8445"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_8446",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["8446"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_8447",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["8447"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_8448",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["8448"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_8449",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["8449"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_841900",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["841900"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_startwiths_841800",
+      "fields": {
+        "type": "to_startwiths",
+        "values": ["841800"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_viettel",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["Viettel"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_mobifone",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["Mobifone"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_vinaphone",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["Vinaphone"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_vietnammobile",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["Vietnammobile"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_gmobile",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["Gmobile"]
+      }
+    },
+    {
+      "model": "giveaway.Criteria",
+      "pk":"to_telco_is_landline",
+      "fields": {
+        "type": "to_telco_is",
+        "values": ["landline"]
+      }
+    }
+
+  ]

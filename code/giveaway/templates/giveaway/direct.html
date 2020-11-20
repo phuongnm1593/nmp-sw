@@ -1,0 +1,8 @@
+{% extends 'giveaway/base.html' %}
+
+{% block content %}
+<div class="alert alert-{{type}}" role="alert">
+    {{message}}
+</div>
+Join new event to win {{roll.hero.name}} ({{roll.hero}}): {{roll.ads_url}}
+{% endblock %}
